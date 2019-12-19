@@ -1,3 +1,7 @@
+from evernote.api.client import EvernoteClient
+import evernote.edam.type.ttypes as Types
+import hashlib,base64,boto3
+
 class Evernote:
 
     def __init__(self, token):
